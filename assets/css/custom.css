@@ -154,11 +154,28 @@
   ); /* Adjust the minimum width as needed */
   grid-gap: 25px; /* Adjust the gap between items as needed */
   /* Center items vertically */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
 
 
 .send-button{
-  background-color: #1e1e1e;
-  color: white;
+  background-color: white;
+  color: black;
+  border: none;
+  font-weight: 500;
+}
+
+.send-button:hover{
+
+  background-color: #111111;
+  color: antiquewhite;
+
+}
+
+
+.language-selector{
+  background-color: transparent;
+  color: #111111;
   border: none;
 }

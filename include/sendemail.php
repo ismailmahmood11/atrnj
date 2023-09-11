@@ -14,7 +14,7 @@ require 'phpmailer/src/PHPMailer.php';
 $recipients = array();
 
 $recipients[] = array(
-	'email' => 'me@example.com',
+	'email' => 'ismail.mahamood.19@gmail.com',
 	'name' => 'Your Name'
 );
 
@@ -80,7 +80,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 	}
 
 
-	// reCaptcha
+	reCaptcha
 	if( isset( $submits['g-recaptcha-response'] ) ) {
 
 		$recaptcha_data = array(
