@@ -158,24 +158,48 @@
   align-items: center; /* Center vertically */
 }
 
-
-.send-button{
+.send-button {
   background-color: white;
   color: black;
   border: none;
   font-weight: 500;
 }
 
-.send-button:hover{
-
+.send-button:hover {
   background-color: #111111;
   color: antiquewhite;
-
 }
 
-
-.language-selector{
+.language-selector {
   background-color: transparent;
   color: #111111;
   border: none;
+}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+
+.align-center-text{
+
+}
+.icons-phone{
+
+}
+@media (max-width: 768px) {
+  .grid-container {
+    display: grid;
+/* Center vertically */
+    grid-template-columns: 1fr; /* Single column layout for smaller screens */
+    grid-gap: auto; /* Adjust the gap between items as needed */
+    margin: 50px;
+  }
+.icons-phone{
+  margin-left: auto; 
+  margin-right: 0;
+  width: 100%;
+}
+
+.align-center-text{
+  text-align: right;
+margin-right: 0px;
+}
+  
 }
