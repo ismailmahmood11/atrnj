@@ -1,7 +1,3 @@
-@font-face {
-  font-family: "almarai";
-  src: url("/assets/fonts/Almarai-Regular.ttf");
-}
 
 .align-right-text {
   text-align: right;
@@ -28,4 +24,9 @@
 
 .margin-3 {
   margin: 3%;
+}
+
+@font-face {
+  font-family: "almarai";
+  src: url("../fonts/Almarai-Bold.ttf");
 }
