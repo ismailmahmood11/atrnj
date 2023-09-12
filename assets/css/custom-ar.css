@@ -1,7 +1,17 @@
+@font-face {
+  font-family: 'almarai';
+  src: url('/assets/fonts/Almarai-Bold.ttf');
+}
+
+
 .align-right-text {
   text-align: right;
 }
 
+
+.align-left-text {
+  text-align: left;
+}
 .width-100 {
   width: 100%;
 }
@@ -12,4 +22,12 @@
 
 .align-right-2{
  margin-left: 0;
+}
+
+.font-almarai{
+  font-family: 'almarai';
+}
+
+.margin-3{
+  margin: 3%;
 }

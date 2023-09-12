@@ -177,29 +177,61 @@
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 
-.align-center-text{
-
+.align-center-text {
 }
-.icons-phone{
-
+.icons-phone {
 }
+
 @media (max-width: 768px) {
   .grid-container {
     display: grid;
-/* Center vertically */
+    /* Center vertically */
     grid-template-columns: 1fr; /* Single column layout for smaller screens */
     grid-gap: auto; /* Adjust the gap between items as needed */
     margin: 50px;
   }
-.icons-phone{
-  margin-left: auto; 
-  margin-right: 0;
-  width: 100%;
+  .icons-phone {
+    margin-left: auto;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .align-center-text {
+    text-align: right;
+    margin-right: 0px;
+  }
 }
 
-.align-center-text{
-  text-align: right;
-margin-right: 0px;
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
-  
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+
+.tiktok-icon {
+  color: white;
+  width: 20px;
 }
