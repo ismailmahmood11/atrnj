@@ -1,5 +1,7 @@
 ﻿/* Place Your Custom Styles Here */
 
+
+
 .video {
   display: block;
   margin: 0 auto;
@@ -29,6 +31,8 @@
 
 .video {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   overflow: hidden;
   object-fit: initial; /* Use "initial" to maintain the video's aspect ratio */
   position: absolute;
@@ -234,4 +238,7 @@
 .tiktok-icon {
   color: white;
   width: 20px;
+}
+.loader-color{
+  color: #470f2c;
 }
