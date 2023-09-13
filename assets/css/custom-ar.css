@@ -30,3 +30,12 @@
   font-family: "almarai";
   src: url("../fonts/Almarai-Bold.ttf");
 }
+
+
+
+@media (max-width: 768px) {
+  .align-left-text{
+    text-align: right;
+  }
+
+}
