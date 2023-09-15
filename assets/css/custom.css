@@ -31,7 +31,7 @@
 
 .video {
   width: 100%;
-  height: 100%;
+ 
   object-fit: cover;
   overflow: hidden;
   object-fit: initial; /* Use "initial" to maintain the video's aspect ratio */
@@ -186,25 +186,7 @@
 .icons-phone {
 }
 
-@media (max-width: 768px) {
-  .grid-container {
-    display: grid;
-    /* Center vertically */
-    grid-template-columns: 1fr; /* Single column layout for smaller screens */
-    grid-gap: auto; /* Adjust the gap between items as needed */
-    margin: 50px;
-  }
-  .icons-phone {
-    margin-left: auto;
-    margin-right: 0;
-    width: 100%;
-  }
 
-  .align-center-text {
-    text-align: right;
-    margin-right: 0px;
-  }
-}
 
 .fa {
   padding: 20px;
@@ -241,4 +223,63 @@
 }
 .loader-color{
   color: #470f2c;
+}
+
+.margin-left-5{
+  margin-left: 5%;
+}
+
+.margin-right-5{
+  margin-right: 5%;
+}
+
+.partners-container {
+  position: relative;
+  overflow: hidden;
+  opacity: 1;
+  background-color: white;
+  object-fit: cover;
+  width: 230px;
+  height: 130px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease-in-out, background-size 0.3s ease-in-out;
+}
+
+.image-partners{
+  object-fit: cover;
+  width: 100%;
+}
+
+.padding-0{
+  padding: 0px;
+}
+
+@media (max-width: 768px) {
+
+  .video{
+    height: 100%;
+  }
+
+  
+  .grid-container {
+    display: grid;
+    /* Center vertically */
+    grid-template-columns: 1fr; /* Single column layout for smaller screens */
+    grid-gap: auto; /* Adjust the gap between items as needed */
+    margin: 50px;
+  }
+  .icons-phone {
+    margin-left: auto;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .align-center-text {
+    text-align: right;
+    margin-right: 0px;
+  }
 }

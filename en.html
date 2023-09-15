@@ -20,8 +20,6 @@
       href="assets/vendor/fullPage.js/dist/jquery.fullpage.min.css"
       type="text/css"
     />
-   
- 
 
     <link
       rel="stylesheet"
@@ -69,7 +67,7 @@
       data-navbar-scrolled="navbar-light"
     >
       <!-- Brand -->
-      <a class="navbar-brand" href="#home">
+      <a class="navbar-brand margin-left-5" href="#home">
         <img src="assets/images/logo.svg" class="navbar-brand-img" alt="logo" />
       </a>
 
@@ -86,11 +84,10 @@
         <span class="navbar-toggler-alternative-icon"></span>
       </button>
 
-      <!-- Collapse --> 
-      <div class="collapse navbar-collapse " id="navbarCollapse">
-
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse margin-right-5" id="navbarCollapse">
         <!-- Navigation -->
-        <ul class="navbar-nav ml-auto " id="navigation">
+        <ul class="navbar-nav ml-auto" id="navigation">
           <li class="nav-item" data-menuanchor="home">
             <a class="nav-link" href="#home">Home</a>
           </li>
@@ -104,11 +101,14 @@
           <li class="nav-item" data-menuanchor="our-work">
             <a class="nav-link" href="#our-services">Our services</a>
           </li>
+          <li class="nav-item" data-menuanchor="partners">
+            <a class="nav-link" href="#partners">Our Partners</a>
+          </li>
           <li class="nav-item" data-menuanchor="contact">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
-          <li class="nav-item " data-menuanchor="Arabic">
-            <a class="nav-link " href="index.html">AR</a>
+          <li class="nav-item" data-menuanchor="Arabic">
+            <a class="nav-link" href="index.html">AR</a>
           </li>
         </ul>
 
@@ -323,7 +323,7 @@
         data-ui="dark"
         data-navbar="navbar-light"
       >
-        <div class="margin20">
+        <div class="container align-self-xl-center">
           <h2 class="mb-4 animated title" data-animation="fadeInUp">
             Our services:
           </h2>
@@ -468,6 +468,84 @@
 
       <section
         class="ln-section d-xl-flex theme-color-3"
+        data-anchor="partners"
+        data-tooltip="partners"
+        data-ui="dark"
+        data-navbar="navbar-light"
+      >
+        <div class="container align-self-center theme-color-2">
+          <h2 class="mb-4 animated title" data-animation="fadeInUp">
+            Our partners:
+          </h2>
+          <div class="grid-container">
+            <div class="partners-container padding-0">
+              <img
+                class="image-partners"
+                src="assets/images/partners/raza.webp"
+                alt=""
+              />
+            </div>
+            <div class="partners-container">
+              <img
+                class="image-partners"
+                src="assets/images/partners/gaca.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="partners-container">
+              <img
+                class="image-partners"
+                src="assets/images/partners/MOH.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="partners-container">
+              <img
+                class="image-partners"
+                src="assets/images/partners/sca-comprossed.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="partners-container">
+              <img
+                class="image-partners"
+                src="assets/images/partners/study-group.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="partners-container">
+              <img
+                class="image-partners"
+                src="assets/images/partners/servecrop-compressed.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="partners-container">
+              <img
+                class="image-partners"
+                src="assets/images/partners/gosi-compressed.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="partners-container">
+              <img
+                class="image-partners"
+                src="assets/images/partners/hrdf.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="ln-section d-xl-flex theme-color-3"
         data-anchor="contact"
         data-tooltip="Contact"
         data-ui="dark"
@@ -487,12 +565,10 @@
             <div class="col-12 col-lg-5 mb-8 mb-lg-0">
               <div class="row">
                 <div class="col-12 col-md-4 col-lg-6 mb-8 mb-md-0 mb-lg-5">
-                  <div class="icon-5x text-primary mb-4 ">
+                  <div class="icon-5x text-primary mb-4">
                     <i class="ti-mobile theme-color" theme-color></i>
                   </div>
-                  <p class="mb-0">
-                    +966 54 116 6982
-                  </p>
+                  <p class="mb-0">+966 54 116 6982</p>
                 </div>
 
                 <div class="col-12 col-md-4 col-lg-6 mb-8 mb-md-0 mb-lg-5">
@@ -507,7 +583,7 @@
 
                 <div class="col-12 col-md-4 col-lg-6">
                   <div class="icon-5x text-primary mb-4">
-                    <i class="ti-email theme-color"></i> 
+                    <i class="ti-email theme-color"></i>
                   </div>
                   <p class="mb-0">
                     <a href="mailto:support@atrnj.co" class="theme-color-2"
@@ -581,7 +657,7 @@
                 <input
                   type="hidden"
                   name="_next"
-                  value="http://ismailmahmood11.github.io/atrnj/thanks.html"
+                  value="http://ismailmahmood11.github.io/atrnj"
                 />
                 <input type="hidden" name="_captcha" value="false" />
               </form>
@@ -690,7 +766,11 @@
                 ></a>
               </li>
               <li>
-                <a target="_blank" href="https://www.snapchat.com/add/atrnj.co?share_id=xPW243oYeYg&locale=en-GB"><i class="fab fa-snapchat"></i></a>
+                <a
+                  target="_blank"
+                  href="https://www.snapchat.com/add/atrnj.co?share_id=xPW243oYeYg&locale=en-GB"
+                  ><i class="fab fa-snapchat"></i
+                ></a>
               </li>
             </ul>
           </nav>
