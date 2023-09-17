@@ -48,6 +48,11 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
   </head>
   <body class="layout-wide">
     <!-- Loader -->
@@ -147,13 +152,40 @@
         data-navbar="navbar-dark"
       >
         <div class="overlay overlay-advanced">
-          <div
-            class="overlay-inner bg-image-holder bg-cover bg-bottom-center containervideo"
-          >
-            <video class="video" loop autoplay muted>
-              <source src="assets/video/main-video.mp4" type="video/mp4" />
-            </video>
+          <div class="overlay-inner bg-cover bg-bottom-center containervideo">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-overlay">
+                  <video class="video " loop autoplay muted>
+                    <source
+                      src="assets/video/main-video.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+                <div class="swiper-slide swiper-overlay">
+                  <img
+                    class="image-full-size"
+                    src="assets/images/portfolio/bg-1.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide swiper-overlay">
+                  <img
+                    class="image-full-size"
+                    src="assets/images/portfolio/bg-2.jpeg"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-pagination"></div>
+            </div>
           </div>
+
           <div class="overlay-inner bg-dark opacity-70"></div>
         </div>
         <div class="container align-self-center text-white">
@@ -787,6 +819,9 @@
     <script src="assets/vendor/jquery-smooth-scroll/jquery.smooth-scroll.min.js"></script>
     <script src="assets/vendor/jquery-form/dist/jquery.form.min.js"></script>
     <script src="assets/vendor/jQuery.countdown/dist/jquery.countdown.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="assets/js/swiper.js"></script>
 
     <!-- Theme JS -->
     <script src="assets/js/main.js"></script>

@@ -55,6 +55,11 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
   </head>
   <body class="layout-wide">
     <!-- Loader -->
@@ -92,7 +97,10 @@
       </button>
 
       <!-- Collapse -->
-      <div class="collapse navbar-collapse font-almarai margin-right-5" id="navbarCollapse">
+      <div
+        class="collapse navbar-collapse font-almarai margin-right-5"
+        id="navbarCollapse"
+      >
         <!-- Navigation -->
         <ul class="navbar-nav ml-auto" id="navigation">
           <li class="nav-item" data-menuanchor="home">
@@ -151,12 +159,38 @@
         data-navbar="navbar-dark"
       >
         <div class="overlay overlay-advanced">
-          <div
-            class="overlay-inner bg-image-holder bg-cover bg-bottom-center containervideo"
-          >
-            <video class="video" loop autoplay muted>
-              <source src="assets/video/main-video.mp4" type="video/mp4" />
-            </video>
+          <div class="overlay-inner bg-cover bg-bottom-center containervideo">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-overlay">
+                  <video class="video" loop autoplay muted>
+                    <source
+                      src="assets/video/main-video.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+                <div class="swiper-slide swiper-overlay">
+                  <img
+                    class="image-full-size"
+                    src="assets/images/portfolio/bg-1.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide swiper-overlay">
+                  <img
+                    class="image-full-size"
+                    src="assets/images/portfolio/bg-2.jpeg"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-pagination"></div>
+            </div>
           </div>
           <div class="overlay-inner bg-dark opacity-70"></div>
         </div>
@@ -517,85 +551,85 @@
       </section>
       <!-- Section - Our work -->
       <section
-      class="ln-section d-xl-flex theme-color-3"
-      data-anchor="partners"
-      data-tooltip="partners"
-      data-ui="dark"
-      data-navbar="navbar-light"
-    >
-      <div class="container align-self-center theme-color-2">
-        <h2 class="mb-4 animated title align-right-text font-almarai " data-animation="fadeInUp">
-          :شركاء النجاح
-        </h2>
-        <div class="grid-container-ar">
-          <div class="partners-container padding-0">
-            <img
-              class="image-partners"
-              src="assets/images/partners/raza.webp"
-              alt=""
-            />
-          </div>
-          <div class="partners-container">
-            <img
-              class="image-partners"
-              src="assets/images/partners/gaca.jpg"
-              alt=""
-            />
-          </div>
-
-          <div class="partners-container">
-            <img
-              class="image-partners"
-              src="assets/images/partners/MOH.jpg"
-              alt=""
-            />
-          </div>
-
-  
-          <div class="partners-container">
-            <img
-              class="image-partners"
-              src="assets/images/partners/sca-comprossed.jpg"
-              alt=""
-            />
-          </div>
+        class="ln-section d-xl-flex theme-color-3"
+        data-anchor="partners"
+        data-tooltip="partners"
+        data-ui="dark"
+        data-navbar="navbar-light"
+      >
+        <div class="container align-self-center theme-color-2">
+          <h2
+            class="mb-4 animated title align-right-text font-almarai"
+            data-animation="fadeInUp"
+          >
+            :شركاء النجاح
+          </h2>
+          <div class="grid-container-ar">
+            <div class="partners-container padding-0">
+              <img
+                class="image-partners"
+                src="assets/images/partners/raza.webp"
+                alt=""
+              />
+            </div>
+            <div class="partners-container">
+              <img
+                class="image-partners"
+                src="assets/images/partners/gaca.jpg"
+                alt=""
+              />
+            </div>
 
             <div class="partners-container">
-            <img
-              class="image-partners"
-              src="assets/images/partners/study-group.jpg"
-              alt=""
-            />
-          </div>
+              <img
+                class="image-partners"
+                src="assets/images/partners/MOH.jpg"
+                alt=""
+              />
+            </div>
 
-          
-          <div class="partners-container">
-            <img
-              class="image-partners"
-              src="assets/images/partners/servecrop-compressed.jpg"
-              alt=""
-            />
-          </div>
+            <div class="partners-container">
+              <img
+                class="image-partners"
+                src="assets/images/partners/sca-comprossed.jpg"
+                alt=""
+              />
+            </div>
 
-          <div class="partners-container">
-            <img
-              class="image-partners"
-              src="assets/images/partners/gosi-compressed.jpg"
-              alt=""
-            />
-          </div>
-          
+            <div class="partners-container">
+              <img
+                class="image-partners"
+                src="assets/images/partners/study-group.jpg"
+                alt=""
+              />
+            </div>
 
-          <div class="partners-container">
-            <img
-              class="image-partners"
-              src="assets/images/partners/hrdf.jpg"
-              alt=""
-            />
+            <div class="partners-container">
+              <img
+                class="image-partners"
+                src="assets/images/partners/servecrop-compressed.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="partners-container">
+              <img
+                class="image-partners"
+                src="assets/images/partners/gosi-compressed.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="partners-container">
+              <img
+                class="image-partners"
+                src="assets/images/partners/hrdf.jpg"
+                alt=""
+              />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
       <section
         class="ln-section d-xl-flex theme-color-3"
         data-anchor="contact"
@@ -713,7 +747,7 @@
                 <input
                   type="hidden"
                   name="_next"
-                  value="http://ismailmahmood11.github.io/atrnj/thanks.html"
+                  value="http://ismailmahmood11.github.io/atrnj"
                 />
                 <input type="hidden" name="_captcha" value="false" />
               </form>
@@ -843,7 +877,9 @@
     <script src="assets/vendor/jquery-smooth-scroll/jquery.smooth-scroll.min.js"></script>
     <script src="assets/vendor/jquery-form/dist/jquery.form.min.js"></script>
     <script src="assets/vendor/jQuery.countdown/dist/jquery.countdown.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
+    <script src="assets/js/swiper.js"></script>
     <!-- Theme JS -->
     <script src="assets/js/main.js"></script>
   </body>
