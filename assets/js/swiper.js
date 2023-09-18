@@ -18,3 +18,11 @@ const swiper = new Swiper(".swiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+
+const video = document.getElementById("video");
+
+if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
+  video.autoplay = true;
+  video.load();
+}

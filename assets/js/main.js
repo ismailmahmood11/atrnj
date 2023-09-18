@@ -1,11 +1,5 @@
 /*
-Theme Name: Lana
-Description: Creative Coming Soon Template
-Author: Erilisdesign
-Theme URI: https://preview.erilisdesign.com/html/lana/
-Author URI: https://themeforest.net/user/erilisdesign
-Version: 2.0
-License: https://themeforest.net/licenses/standard
+
 */
 
 /*------------------------------------------------------------------
