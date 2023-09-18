@@ -366,6 +366,10 @@
   margin: 5px;
 }
 
+.trasparant-color{
+  background-color: transparent;
+}
+
 @media (max-width: 768px) {
   .video {
     height: 100%;
