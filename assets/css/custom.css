@@ -242,10 +242,9 @@
 }
 
 .partners-container-overlay {
-  opacity: .5;
-  background-color:rgba(0, 0, 0, 0.7);
+  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 10px;
-
 }
 
 .partners-container-overlay:hover {
@@ -366,8 +365,13 @@
   margin: 5px;
 }
 
-.trasparant-color{
+.trasparant-color {
   background-color: transparent;
+}
+
+hr.solid {
+  border-top: 1px solid #bbb;
+  margin: 100px;
 }
 
 @media (max-width: 768px) {
